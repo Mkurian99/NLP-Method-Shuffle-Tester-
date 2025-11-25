@@ -1,5 +1,5 @@
 # NLP-Method-Shuffle-Tester-
-This is a validation framework for testing the order sensitivity of mainstream NLP methods. It runs NLP method analysis (ID-IDF, Sentiment Analysis etc.) on original, word shuffled, and sentence shuffled versions to see how well the method indicates a loss or alteration of order-sensitive semantic structure like narrative form.
+This is a validation framework for testing the order sensitivity of mainstream NLP methods. It runs NLP method analysis (ID-IDF, Sentiment Analysis etc.) on original, word shuffled, and sentence shuffled versions to see how well the method indicates a loss or alteration of order-sensitive semantic structure like narrative form. The code is designed for direct drag and drop into google colab, followed by uploading an original copy of a text, a word shuffled version with random word order, and a sentence shuffle or line shuffle. If a method outputs similar results for all three, then that method is not sensitive to the narrative content or the order-level semantic processes. 
 
 
 A comprehensive validation framework for testing whether NLP methods can detect semantic structure in text. Originally developed to validate Symbolic Entropy (SE), a novel framework that extends Shannon's 1948 information theory to measure meaning density.
