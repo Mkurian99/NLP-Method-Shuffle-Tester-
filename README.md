@@ -18,7 +18,14 @@ Discourse-level structure — sensitive to both shuffle types (what SE's Σ comp
 A method that passes the word-shuffle test but fails the sentence-shuffle test only detects surface-level patterns. Methods sensitive to sentence-shuffle detect higher-order narrative architecture.
 
 **The 8 Methods**
-MethodWhat It MeasuresGPT-2 PerplexityLanguage model surprisal (how "expected" is this text?)Sentiment AnalysisEmotional valence distributionTF-IDF CoherenceLexical similarity between consecutive sentencesNamed Entity RecognitionEntity density patternsLDA Topic ModelingTopic assignment confidenceBERTScoreSemantic similarity between consecutive windowsBERTopicNeural topic assignment probabilitiesSE (Σ_total)Archetypal motif concentration via KL divergence
+GPT-2 Perplexity Language model surprisal (how "expected" is this text?)
+Sentiment Analysis Emotional valence distribution
+TF-IDF Coherence Lexical similarity between consecutive sentences
+Named Entity Recognition Entity density patterns
+LDA Topic Modeling Topic assignment confidence
+BERTScore Semantic similarity between consecutive windows
+BERTopic Neural topic assignment probabilities
+SE (Σ_total) Archetypal motif concentration via KL divergence from global baseline average
 
 **Methodological Corrections**
 This suite implements several corrections to ensure valid cross-condition comparison:
